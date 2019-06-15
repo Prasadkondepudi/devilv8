@@ -1,12 +1,3 @@
-local﻿ file = gg.makeRequest('https://github.com/Prasadkondepudi/devilv8.git') -- replace with your file link
-if file.content == nil or file.content == '' then
-os.exit()
-end﻿
-local load =  load(file.content)
-if load == nil﻿﻿ then
-os.exit()
-end 
-load()
 function HOME()
  MN = gg.choice({
  "┣➣ ᴡᴀʟʟ ʜᴀᴄᴋ & ᴄᴏʟᴏᴜʀ",
@@ -928,7 +919,7 @@ os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/Shad
 end
 
 function EXIT()
-print("тσxıη єxρσятs ")
+print("Devil vip Script V8 ")
 gg.skipRestoreState()
 gg.setVisible(true)
   os.exit()
