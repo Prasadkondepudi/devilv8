@@ -1,4 +1,4 @@
-local﻿ file = gg.makeRequest('https://yourgithubfile.com/file.lua') -- replace with your file link
+local﻿ file = gg.makeRequest('https://github.com/Prasadkondepudi/devilv8.git') -- replace with your file link
 if file.content == nil or file.content == '' then
 os.exit()
 end﻿
